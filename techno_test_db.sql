@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Май 06 2023 г., 20:00
+-- Время создания: Май 06 2023 г., 20:06
 -- Версия сервера: 8.0.30
 -- Версия PHP: 8.1.9
 
@@ -46,7 +46,10 @@ INSERT INTO `events` (`id`, `event_name`, `user_status`, `timestamp`, `user_ip`)
 (4, 'login', 'authorized', '2023-05-06 09:45:59', '127.0.0.1'),
 (5, 'login', 'authorized', '2023-05-06 09:46:07', '127.0.0.1'),
 (6, 'login', 'authorized', '2023-05-06 09:58:47', '127.0.0.1'),
-(7, 'login', 'authorized', '2023-05-06 09:58:49', '127.0.0.1');
+(7, 'login', 'authorized', '2023-05-06 09:58:49', '127.0.0.1'),
+(8, 'login', 'authorized', '2023-05-06 20:05:06', '127.0.0.1'),
+(9, 'login', 'authorized', '2023-05-06 20:05:08', '127.0.0.1'),
+(10, 'login', 'authorized', '2023-05-06 20:05:09', '127.0.0.1');
 
 --
 -- Индексы сохранённых таблиц
@@ -66,7 +69,7 @@ ALTER TABLE `events`
 -- AUTO_INCREMENT для таблицы `events`
 --
 ALTER TABLE `events`
-  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
